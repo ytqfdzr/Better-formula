@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Kotlin
+.kotlin/
+
+# Local configuration (machine-specific SDK path, do not commit)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore / signing (never commit)
+*.jks
+*.keystore
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
+# Project notes (exclude from repo)
+plan/

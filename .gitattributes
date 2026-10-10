@@ -1,0 +1,17 @@
+# Line endings: keep the Gradle wrapper runnable on all platforms
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+# Normalize line endings for text files
+*.kt text
+*.kts text
+*.xml text
+*.md text
+*.properties text
+*.pro text
+
+# Treat these as binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.webp binary
