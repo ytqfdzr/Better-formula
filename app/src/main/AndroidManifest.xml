@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:name=".ReCalcApplication"
+        android:name=".BetterFormulaApplication"
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ReCalc">
+        android:theme="@style/Theme.BetterFormula">
         <activity
             android:name=".MainActivity"
             android:exported="true">

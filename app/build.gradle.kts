@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recalc"
+    namespace = "com.betterformula.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.recalc"
+        applicationId = "com.betterformula.app"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

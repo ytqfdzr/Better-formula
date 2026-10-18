@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ReCalc"
+rootProject.name = "better-formula"
 include(":app")
