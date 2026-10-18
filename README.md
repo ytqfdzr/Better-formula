@@ -42,9 +42,20 @@
 ## 项目结构
 
 ```
-app/src/main/java/com/betterformula/app/
-├── core/parser/   # 表达式词法与语法解析
-└── ...            # UI、数据层
+Better-formula/
+├── app/src/main/
+│   ├── java/com/betterformula/app/
+│   │   ├── core/parser/   # 表达式词法/语法解析与求值(Lexer、Parser、Evaluator、Calculator)、公式校验、数值格式化
+│   │   ├── data/          # 数据层:Room(db/dao/entity)、仓库(Formula/History/Settings)、JSON 编解码(Codec)、依赖容器(AppContainer)
+│   │   ├── ui/            # Compose 界面:main 主界面、formula 公式编辑、history 历史、theme 主题、AppNavHost 导航
+│   │   ├── MainActivity.kt              # 应用入口 Activity
+│   │   └── BetterFormulaApplication.kt   # Application,初始化 AppContainer
+│   ├── res/               # 资源:drawable/values/mipmap(应用图标)
+│   └── AndroidManifest.xml
+├── icon/icon.png          # README 展示的图标源文件
+├── plan/                  # 设计与问题记录文档
+├── gradle/  build.gradle.kts  settings.gradle.kts   # Gradle 构建配置
+└── README.md
 ```
 
 ## License
