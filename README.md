@@ -1,4 +1,4 @@
-# ReCalc(再算)
+# Better-formula
 
 一个基于 Jetpack Compose 的 Android 计算应用:定义一次公式,之后每组变量值反复代入计算——类似 Excel 的固定逻辑批量计算,支持中文变量名、多公式切换与计算历史。
 
