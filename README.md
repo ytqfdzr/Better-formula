@@ -19,13 +19,14 @@
 ## 构建与运行
 
 1. 克隆仓库:
-
+   
    ```bash
    git clone <repo-url>
    cd myapp
    ```
 
 2. 用 Android Studio 打开项目,等待 Gradle Sync 完成(`local.properties` 会自动生成)。
+
 3. 连接设备或启动模拟器,点击 Run 即可。
 
 命令行构建:
@@ -37,11 +38,11 @@
 ## 项目结构
 
 ```
-app/src/main/java/com/example/recalc/
+app/src/main/java/com/betterformula/app/
 ├── core/parser/   # 表达式词法与语法解析
 └── ...            # UI、数据层
 ```
 
- ## License
+## License
 
  MIT License, see [LICENSE](LICENSE).
